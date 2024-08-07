@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-API_KEY = 'YOUR_API_KEY'
+API_KEY = '7r532CwX1fLHqEav'
 BASE_URL = 'https://api-capital.backend-capital.com'
 
 def place_order(instrument_id, order_type, quantity):
